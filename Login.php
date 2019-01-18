@@ -66,7 +66,7 @@ if(isset($_POST["submit"])){
         <br>
         <h3 class='login_title text-center'>Đăng nhập</h3>
         <hr>
-            <form class="form-signin" action="login.php" method="POST">
+            <form class="form-signin" action="Login.php" method="POST">
                 <span id="reauth-email" class="reauth-email"></span>
                 <input type="text" name="use" id="inputEmail" class="form-control" placeholder="Tài khoản" required autofocus>
                 <br>
